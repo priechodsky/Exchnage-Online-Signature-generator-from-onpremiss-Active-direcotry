@@ -10,6 +10,6 @@ Sry for my eng
 5. Convert png images to base64 format
 6. Script created im powershell (Exchnage online powershell), only manual run every one week 
 7. Connect-EXOPSSession -UserPrincipalName user@ondomain.com
-8. Putting generated signatures native to Exchnage online 
+8. Run script and Put generated signatures native to Exchnage online 
 
 
