@@ -4,7 +4,7 @@
 $Tab = [char]9
 $i = 0
 
-foreach($UserObj in (Get-ADuser -properties msExchRecipientTypeDetails,displayname,givenname,sn,title,department,mobile,mail,c,UserPrincipalName -Filter {(enabled -eq "True") -and ((msExchRecipientTypeDetails -eq "34359738368") -or (msExchRecipientTypeDetails -eq "2147483648"))} -SearchBase 'DC=intranet,DC=root,DC=tmr,DC=sk' | Sort-Object Displayname)){
+foreach($UserObj in (Get-ADuser -properties msExchRecipientTypeDetails,displayname,givenname,sn,title,department,mobile,mail,c,UserPrincipalName -Filter {(enabled -eq "True") -and ((msExchRecipientTypeDetails -eq "34359738368") -or (msExchRecipientTypeDetails -eq "2147483648"))} -SearchBase 'DC=int,DC=domain,DC=sk' | Sort-Object Displayname)){
 
 $i = $i + 1
 #$sUserName = $UserObj.sAMAccountName
@@ -25,7 +25,7 @@ $logo_src = "TMR_Signature_"
 $sCompany = "Firm, a.s."
 $sStreetAddress = "Adress 72"
 $sPostalCode = "03101"
-$sStreet = "Liptovský Mikuláš"
+$sStreet = "Lipláš"
 $sState = "Slovakia"
 $sPozdav = "--"
 
