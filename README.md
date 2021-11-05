@@ -9,6 +9,7 @@ Sry for my eng
 4. Images set to same name as distribution group
 5. Convert png images to base64 format
 6. Script created im powershell (Exchnage online powershell), only manual run every one week 
-7. Putting generated signatures native to Exchnage online 
+7. Connect-EXOPSSession -UserPrincipalName user@ondomain.com
+8. Putting generated signatures native to Exchnage online 
 
 
